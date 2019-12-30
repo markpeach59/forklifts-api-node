@@ -1,0 +1,4 @@
+{
+  "db": "mongodb://localhost/forkliftsapp",
+  "port": "3900"
+}

@@ -10,11 +10,17 @@ router.get("/", async (req, res) => {
   res.send(forklifts);
 });
 
-router.get("/:id", async (req, res) => {
-  const forklift = await Forkliftdetail.findById(req.params.id).select("-__v");
+router.get("/:model", async (req, res) => {
+  console.log("GET", req.param("model"));
+
+  const forklift = await Forkliftdetail.findOne({
+    model: req.param("model")
+  }).select("-__v");
 
   if (!forklift)
-    return res.status(404).send("The forklift the given ID was not found.");
+    return res
+      .status(404)
+      .send("The forklift for the given modelname was not found.");
 
   res.send(forklift);
 });

@@ -6,7 +6,24 @@ const Forkliftdetail = mongoose.model(
     model: String,
     capacity: Number,
     engType: String,
-    basePrice: Number
+    basePrice: Number,
+
+    masts: [
+      {
+        masttype: String,
+        mastsizes: [
+          {
+            mastlength: Number,
+            price: Number
+          }
+        ]
+      }
+    ],
+    forks: [{ forklength: Number, price: Number }],
+    valves: [{ valvetype: String, price: Number }],
+    tyres: [{ tyretype: String, price: Number }],
+    sideshift: [{ sideshifttype: String, price: Number }],
+    cabin: [{ cabinoption: String, price: Number }]
   })
 );
 

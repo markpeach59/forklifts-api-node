@@ -5,11 +5,11 @@ const { Forkliftdetail } = require("./models/forkliftdetail");
 
 const data = [
   {
-    model: "KBD15",
+    model: "KBG15",
     capacity: 1500,
-    engType: "Diesel",
-    basePrice: 11303,
-    imgName: "KBD15.jpg",
+    engType: "LPG",
+    basePrice: 11977,
+    imgName: "KBG15.jpg",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -25,8 +25,7 @@ const data = [
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
           { mastlength: 3000, price: 501 },
-
-          { mastlength: 4000, price: 895 }
+          { mastlength: 4000, price: 896 }
         ]
       },
       {
@@ -54,13 +53,14 @@ const data = [
       { valvetype: "3rd + 4th", price: 730 }
     ],
     sideshift: [
-      { sideshifttype: "Hook On", price: 350 },
-      { sideshifttype: "Integral", price: 800 }
+      { sideshifttype: "Hook On", price: 360 },
+      { sideshifttype: "Integral", price: 512 }
     ],
     tyres: [
       { tyretype: "S/E Solid Tyres", price: 410 },
       { tyretype: "None-Marking White Tyres", price: 748 }
     ],
+    seat: [{ seattype: "Full Comfort", price: 181 }],
     cabin: [
       { cabinoption: "Half Cabin", price: 819 },
       { cabinoption: "Full Steel Cabin", price: 1296 }
@@ -68,11 +68,11 @@ const data = [
     heater: [{ heatertype: "Heater/Demister", price: 172 }]
   },
   {
-    model: "KBD18",
+    model: "KBG18",
     capacity: 1750,
-    engType: "Diesel",
-    basePrice: 11589,
-    imgName: "KBD18.jpg",
+    engType: "LPG",
+    basePrice: 12388,
+    imgName: "KBG18.jpg",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -88,8 +88,7 @@ const data = [
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
           { mastlength: 3000, price: 501 },
-
-          { mastlength: 4000, price: 895 }
+          { mastlength: 4000, price: 896 }
         ]
       },
       {
@@ -117,8 +116,8 @@ const data = [
       { valvetype: "3rd + 4th", price: 730 }
     ],
     sideshift: [
-      { sideshifttype: "Hook On", price: 350 },
-      { sideshifttype: "Integral", price: 800 }
+      { sideshifttype: "Hook On", price: 360 },
+      { sideshifttype: "Integral", price: 512 }
     ],
     tyres: [
       { tyretype: "S/E Solid Tyres", price: 410 },
@@ -132,11 +131,11 @@ const data = [
     heater: [{ heatertype: "Heater/Demister", price: 172 }]
   },
   {
-    model: "KBD20",
+    model: "KBG20",
     capacity: 2000,
-    engType: "Diesel",
-    basePrice: 11920,
-    imgName: "KBD20.jpg",
+    engType: "LPG",
+    basePrice: 12897,
+    imgName: "KBG20.jpg",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -152,8 +151,7 @@ const data = [
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
           { mastlength: 3000, price: 501 },
-
-          { mastlength: 4000, price: 895 }
+          { mastlength: 4000, price: 896 }
         ]
       },
       {
@@ -181,10 +179,9 @@ const data = [
       { valvetype: "3rd + 4th", price: 730 }
     ],
     sideshift: [
-      { sideshifttype: "Hook On", price: 350 },
-      { sideshifttype: "Integral", price: 800 }
+      { sideshifttype: "Hook On", price: 360 },
+      { sideshifttype: "Integral", price: 512 }
     ],
-
     tyres: [
       { tyretype: "S/E Solid Tyres", price: 410 },
       { tyretype: "None-Marking White Tyres", price: 748 }
@@ -197,11 +194,11 @@ const data = [
     heater: [{ heatertype: "Heater/Demister", price: 172 }]
   },
   {
-    model: "KBD25",
+    model: "KBG25",
     capacity: 2500,
-    engType: "Diesel",
-    basePrice: 12236,
-    imgName: "KBD25.jpg",
+    engType: "LPG",
+    basePrice: 12895,
+    imgName: "KBG25.jpg",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -217,7 +214,6 @@ const data = [
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
           { mastlength: 3000, price: 609 },
-
           { mastlength: 4000, price: 979 }
         ]
       },
@@ -249,7 +245,6 @@ const data = [
       { sideshifttype: "Hook On", price: 375 },
       { sideshifttype: "Integral", price: 880 }
     ],
-    forkpositioner: [{ forkpositionertype: "", price: 910 }],
     tyres: [
       { tyretype: "S/E Solid Tyres", price: 480 },
       { tyretype: "None-Marking White Tyres", price: 836 }
@@ -262,11 +257,11 @@ const data = [
     heater: [{ heatertype: "Heater/Demister", price: 180 }]
   },
   {
-    model: "KBD30",
+    model: "KBG30",
     capacity: 3000,
-    engType: "Diesel",
-    basePrice: 12980,
-    imgName: "KBD30.jpg",
+    engType: "LPG",
+    basePrice: 13633,
+    imgName: "KBG30.jpg",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -282,14 +277,13 @@ const data = [
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
           { mastlength: 3000, price: 629 },
-
           { mastlength: 4000, price: 999 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, price: 150 },
+          { mastlength: 4350, price: 1580 },
           { mastlength: 4500, price: 1700 },
           { mastlength: 4700, price: 1790 },
           { mastlength: 4800, price: 1820 },
@@ -315,11 +309,10 @@ const data = [
       { sideshifttype: "Hook On", price: 428 },
       { sideshifttype: "Integral", price: 987 }
     ],
-    forkpositioner: [{ forkpositionertype: "", price: 1100 }],
     tyres: [
       { tyretype: "S/E Solid Tyres", price: 510 },
       { tyretype: "None-Marking White Tyres", price: 903 },
-      { tyretype: "Dual Drive Solid Tyres", price: 1180 }
+      { tyretype: "Dual Drive Tyres", price: 1803 }
     ],
     seat: [{ seattype: "Full Comfort", price: 190 }],
     cabin: [
@@ -329,11 +322,11 @@ const data = [
     heater: [{ heatertype: "Heater/Demister", price: 181 }]
   },
   {
-    model: "KBD35",
+    model: "KBG35",
     capacity: 3500,
-    engType: "Diesel",
-    basePrice: 13495,
-    imgName: "KBD35.jpg",
+    engType: "LPG",
+    basePrice: 14283,
+    imgName: "KBG35.jpg",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -349,14 +342,13 @@ const data = [
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
           { mastlength: 3000, price: 629 },
-
           { mastlength: 4000, price: 999 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, price: 150 },
+          { mastlength: 4350, price: 1580 },
           { mastlength: 4500, price: 1700 },
           { mastlength: 4700, price: 1790 },
           { mastlength: 4800, price: 1820 },
@@ -382,11 +374,10 @@ const data = [
       { sideshifttype: "Hook On", price: 428 },
       { sideshifttype: "Integral", price: 987 }
     ],
-    forkpositioner: [{ forkpositionertype: "", price: 1100 }],
     tyres: [
       { tyretype: "S/E Solid Tyres", price: 510 },
       { tyretype: "None-Marking White Tyres", price: 903 },
-      { tyretype: "Dual Drive Solid Tyres", price: 1180 }
+      { tyretype: "Dual Drive Tyres", price: 1803 }
     ],
     seat: [{ seattype: "Full Comfort", price: 190 }],
     cabin: [
@@ -396,80 +387,11 @@ const data = [
     heater: [{ heatertype: "Heater/Demister", price: 181 }]
   },
   {
-    model: "KBD40",
+    model: "KBG40",
     capacity: 4000,
-    engType: "Diesel",
-    basePrice: 22550,
-    imgName: "KBD40.jpg",
-    masts: [
-      {
-        masttype: "2 Stage Free View Mast",
-        mastsizes: [
-          { mastlength: 3000, price: 0 },
-
-          { mastlength: 4000, price: 810 },
-          { mastlength: 4500, price: 1011 },
-          { mastlength: 5000, price: 1620 }
-        ]
-      },
-      {
-        masttype: "2 Stage Full Free Lift Mast",
-        mastsizes: [
-          { mastlength: 3000, price: 1010 },
-
-          { mastlength: 4000, price: 1800 }
-        ]
-      },
-      {
-        masttype: "3 Stage Full Free Lift Mast",
-        mastsizes: [
-          { mastlength: 4000, price: 1390 },
-          { mastlength: 4350, price: 1920 },
-          { mastlength: 4500, price: 2130 },
-          { mastlength: 4700, price: 2310 },
-
-          { mastlength: 5000, price: 2608 },
-          { mastlength: 5500, price: 2966 },
-          { mastlength: 6000, price: 3200 }
-        ]
-      }
-    ],
-    forks: [
-      { forklength: 1070, price: 0 },
-      { forklength: 1200, price: 150 },
-      { forklength: 1370, price: 266 },
-      { forklength: 1500, price: 410 },
-      { forklength: 1800, price: 480 },
-      { forklength: 2120, price: 560 }
-    ],
-    valves: [
-      { valvetype: "3rd", price: 397 },
-      { valvetype: "3rd + 4th", price: 996 }
-    ],
-    sideshift: [{ sideshifttype: "Hook On", price: 890 }],
-    forkpositioner: [{ forkpositionertype: "", price: 1700 }],
-    tyres: [
-      { tyretype: "S/E Solid Tyres", price: 980 },
-      { tyretype: "Dual Drive Solid Tyres", price: 2200 },
-      { tyretype: "Dual Drive Pneumatic Tyres", price: 1190 }
-    ],
-    seat: [
-      { seattype: "Full Comfort", price: 210 },
-      { seattype: "Full Lumbar", price: 695 }
-    ],
-    cabin: [
-      { cabinoption: "Half Cabin", price: 1480 },
-      { cabinoption: "Full Steel Cabin", price: 2277 }
-    ],
-    heater: [{ heatertype: "Heater/Demister", price: 320 }],
-    aircon: [{ aircontype: "Air Con", price: 1400 }]
-  },
-  {
-    model: "KBD50S",
-    capacity: 5000,
-    engType: "Diesel",
-    basePrice: 23680,
-    imgName: "KBD50S.jpg",
+    engType: "LPG",
+    basePrice: 22918,
+    imgName: "KBG40.jpg",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -496,14 +418,14 @@ const data = [
           { mastlength: 4500, price: 2130 },
           { mastlength: 4700, price: 2310 },
           { mastlength: 5000, price: 2608 },
-          { mastlength: 5500, price: 2966 },
+          { mastlength: 5400, price: 2966 },
           { mastlength: 6000, price: 3200 }
         ]
       }
     ],
     forks: [
       { forklength: 1070, price: 0 },
-      { forklength: 1200, price: 180 },
+      { forklength: 1200, price: 150 },
       { forklength: 1370, price: 266 },
       { forklength: 1500, price: 410 },
       { forklength: 1800, price: 480 },
@@ -513,11 +435,13 @@ const data = [
       { valvetype: "3rd", price: 397 },
       { valvetype: "3rd + 4th", price: 996 }
     ],
-    sideshift: [{ sideshifttype: "Hook On", price: 890 }],
-    forkpositioner: [{ forkpositionertype: "", price: 1700 }],
+    sideshift: [
+      { sideshifttype: "Hook On", price: 890 },
+      { sideshifttype: "Sideshifting Fork Positioner", price: 1700 }
+    ],
     tyres: [
       { tyretype: "S/E Solid Tyres", price: 980 },
-      { tyretype: "Dual Drive Solid Tyres", price: 2200 },
+      { tyretype: "Dual Drive Tyres", price: 2200 },
       { tyretype: "Dual Drive Pneumatic Tyres", price: 1190 }
     ],
     seat: [
@@ -532,262 +456,73 @@ const data = [
     aircon: [{ aircontype: "Air Con", price: 1400 }]
   },
   {
-    model: "KBD50",
+    model: "KBG50",
     capacity: 5000,
-    engType: "Diesel",
-    basePrice: 32303,
-    imgName: "KBD50.jpg",
+    engType: "LPG",
+    basePrice: 24100,
+    imgName: "KBG50.jpg",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
           { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 410 },
-          { mastlength: 4000, price: 890 },
-          { mastlength: 4500, price: 1100 },
-          { mastlength: 5000, price: 1800 },
-          { mastlength: 6000, price: 2073 }
+          { mastlength: 3300, price: 390 },
+          { mastlength: 4000, price: 810 },
+          { mastlength: 4500, price: 1011 },
+          { mastlength: 5000, price: 1620 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 1200 },
-          { mastlength: 3500, price: 1566 },
-          { mastlength: 4000, price: 1976 }
+          { mastlength: 3000, price: 1010 },
+          { mastlength: 4000, price: 1800 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4500, price: 2710 },
-          { mastlength: 4700, price: 2996 },
-          { mastlength: 5000, price: 3216 },
-          { mastlength: 5400, price: 3300 },
-          { mastlength: 6000, price: 3995 }
+          { mastlength: 4000, price: 1390 },
+          { mastlength: 4350, price: 1920 },
+          { mastlength: 4500, price: 2130 },
+          { mastlength: 4700, price: 2310 },
+          { mastlength: 5000, price: 2608 },
+          { mastlength: 5400, price: 2966 },
+          { mastlength: 6000, price: 3200 }
         ]
       }
     ],
     forks: [
-      { forklength: 1200, price: 0 },
-      { forklength: 1370, price: 290 },
-      { forklength: 1500, price: 470 },
-      { forklength: 1800, price: 580 },
-      { forklength: 2120, price: 897 },
-      { forklength: 2420, price: 988 }
+      { forklength: 1070, inCost: 0 },
+      { forklength: 1200, price: 150 },
+      { forklength: 1370, price: 266 },
+      { forklength: 1500, price: 410 },
+      { forklength: 1800, price: 480 },
+      { forklength: 2120, price: 560 }
     ],
     valves: [
-      { valvetype: "3rd", price: 510 },
-      { valvetype: "3rd + 4th", price: 1100 }
+      { valvetype: "3rd", price: 397 },
+      { valvetype: "3rd + 4th", price: 996 }
     ],
     sideshift: [
       { sideshifttype: "Hook On", price: 890 },
-      { sideshifttype: "Integral", price: 1700 }
+      { sideshifttype: "Sideshifting Fork Positioner", price: 1700 }
     ],
     tyres: [
-      { tyretype: "S/E Solid Tyres", price: 1392 },
-      { tyretype: "None Marking Tyres", price: 2437 }
+      { tyretype: "S/E Solid Tyres", price: 980 },
+      { tyretype: "Dual Drive Tyres", price: 2200 },
+      { tyretype: "Dual Drive Pneumatic Tyres", price: 1190 }
     ],
     seat: [
       { seattype: "Full Comfort", price: 210 },
       { seattype: "Full Lumbar", price: 695 }
     ],
     cabin: [
-      { cabinoption: "Half Cabin", price: 1897 },
-      { cabinoption: "Full Steel Cabin", price: 2480 }
+      { cabinoption: "Half Cabin", price: 1480 },
+      { cabinoption: "Full Steel Cabin", price: 2277 }
     ],
-    heater: [{ heatertype: "Heater/Demister", price: 494 }],
-    aircon: [{ aircontype: "Air Con", price: 1484 }]
-  },
-  {
-    model: "KBD60",
-    capacity: 6000,
-    engType: "Diesel",
-    basePrice: 34805,
-    imgName: "KBD60.jpg",
-    masts: [
-      {
-        masttype: "2 Stage Free View Mast",
-        mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 410 },
-          { mastlength: 4000, price: 890 },
-          { mastlength: 4500, price: 1100 },
-          { mastlength: 5000, price: 1800 },
-          { mastlength: 6000, price: 2073 }
-        ]
-      },
-      {
-        masttype: "2 Stage Full Free Lift Mast",
-        mastsizes: [
-          { mastlength: 3000, price: 1200 },
-          { mastlength: 3500, price: 1566 },
-          { mastlength: 4000, price: 1976 }
-        ]
-      },
-      {
-        masttype: "3 Stage Full Free Lift Mast",
-        mastsizes: [
-          { mastlength: 4500, price: 2710 },
-          { mastlength: 4700, price: 2996 },
-          { mastlength: 5000, price: 3216 },
-          { mastlength: 5400, price: 3300 },
-          { mastlength: 6000, price: 3995 }
-        ]
-      }
-    ],
-    forks: [
-      { forklength: 1200, price: 0 },
-      { forklength: 1370, price: 290 },
-      { forklength: 1500, price: 470 },
-      { forklength: 1800, price: 580 },
-      { forklength: 2120, price: 897 },
-      { forklength: 2420, price: 988 }
-    ],
-    valves: [
-      { valvetype: "3rd", price: 510 },
-      { valvetype: "3rd + 4th", price: 1100 }
-    ],
-    sideshift: [
-      { sideshifttype: "Hook On", price: 890 },
-      { sideshifttype: "Integral", price: 1700 }
-    ],
-    tyres: [
-      { tyretype: "S/E Solid Tyres", price: 1392 },
-      { tyretype: "None Marking Tyres", price: 2437 }
-    ],
-    seat: [
-      { seattype: "Full Comfort", price: 210 },
-      { seattype: "Full Lumbar", price: 695 }
-    ],
-    cabin: [
-      { cabinoption: "Half Cabin", price: 1897 },
-      { cabinoption: "Full Steel Cabin", price: 2480 }
-    ],
-    heater: [{ heatertype: "Heater/Demister", price: 494 }],
-    aircon: [{ aircontype: "Air Con", price: 1484 }]
-  },
-  {
-    model: "KBD70",
-    capacity: 7000,
-    engType: "Diesel",
-    basePrice: 36608,
-    imgName: "KBD70.jpg",
-    masts: [
-      {
-        masttype: "2 Stage Free View Mast",
-        mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 410 },
-          { mastlength: 4000, price: 890 },
-          { mastlength: 4500, price: 1100 },
-          { mastlength: 5000, price: 1800 },
-          { mastlength: 6000, price: 2073 }
-        ]
-      },
-      {
-        masttype: "2 Stage Full Free Lift Mast",
-        mastsizes: [
-          { mastlength: 3000, price: 1200 },
-          { mastlength: 3500, price: 1566 },
-          { mastlength: 4000, price: 1976 }
-        ]
-      },
-      {
-        masttype: "3 Stage Full Free Lift Mast",
-        mastsizes: [
-          { mastlength: 4500, price: 2710 },
-          { mastlength: 4700, price: 2996 },
-          { mastlength: 5000, price: 3216 },
-          { mastlength: 5400, price: 3300 },
-          { mastlength: 6000, price: 3995 }
-        ]
-      }
-    ],
-    forks: [
-      { forklength: 1200, price: 0 },
-      { forklength: 1370, price: 290 },
-      { forklength: 1500, price: 470 },
-      { forklength: 1800, price: 580 },
-      { forklength: 2120, price: 897 },
-      { forklength: 2420, price: 988 }
-    ],
-    valves: [
-      { valvetype: "3rd", price: 510 },
-      { valvetype: "3rd + 4th", price: 1100 }
-    ],
-    sideshift: [
-      { sideshifttype: "Hook On", price: 890 },
-      { sideshifttype: "Integral", price: 1700 }
-    ],
-    tyres: [
-      { tyretype: "S/E Solid Tyres", price: 1392 },
-      { tyretype: "None Marking Tyres", price: 2437 }
-    ],
-    seat: [
-      { seattype: "Full Comfort", price: 210 },
-      { seattype: "Full Lumbar", price: 695 }
-    ],
-    cabin: [
-      { cabinoption: "Half Cabin", price: 1897 },
-      { cabinoption: "Full Steel Cabin", price: 2480 }
-    ],
-    heater: [{ heatertype: "Heater/Demister", price: 494 }],
-    aircon: [{ aircontype: "Air Con", price: 1484 }]
-  },
-  {
-    model: "KBD100",
-    capacity: 10000,
-    engType: "Diesel",
-    basePrice: 51889,
-    imgName: "KBD100.jpg",
-    masts: [
-      {
-        masttype: "2 Stage Free View Mast",
-        mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 600 },
-          { mastlength: 4000, price: 2500 },
-          { mastlength: 4500, price: 3300 },
-          { mastlength: 5000, price: 4100 },
-          { mastlength: 6000, price: 5200 }
-        ]
-      },
-      {
-        masttype: "3 Stage Full Free Lift Mast",
-        mastsizes: [
-          { mastlength: 4500, price: 3900 },
-          { mastlength: 4700, price: 4100 },
-          { mastlength: 5000, price: 5200 },
-          { mastlength: 5400, price: 5400 },
-          { mastlength: 6000, price: 5800 }
-        ]
-      }
-    ],
-    forks: [
-      { forklength: 1520, price: 0 },
-      { forklength: 1670, price: 893 },
-      { forklength: 1820, price: 997 },
-      { forklength: 2120, price: 1280 },
-      { forklength: 2440, price: 1350 }
-    ],
-    valves: [
-      { valvetype: "3rd", price: 590 },
-      { valvetype: "3rd + 4th", price: 1209 }
-    ],
-
-    tyres: [{ tyretype: "S/E Solid Tyres", price: 2589 }],
-    seat: [
-      { seattype: "Full Comfort", price: 210 },
-      { seattype: "Full Lumbar", price: 695 },
-      { seattype: "Lumbar with Headrest", price: 835 }
-    ],
-    cabin: [
-      { cabinoption: "Half Cabin", price: 2210 },
-      { cabinoption: "Full Steel Cabin", price: 2690 }
-    ],
-    heater: [{ heatertype: "Heater/Demister", price: 494 }],
-    aircon: [{ aircontype: "Air Con", price: 1530 }]
+    heater: [{ heatertype: "Heater/Demister", price: 320 }],
+    aircon: [{ aircontype: "Air Con", price: 1400 }]
   }
 ];
 

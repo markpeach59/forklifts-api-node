@@ -9,6 +9,10 @@ require("./startup/routes")(app);
 
 require("./startup/db")();
 
+if (!config.get("jwtPrivateKey")) {
+  console.log("FATAL ERROR: Private Key is not defined");
+  process.exit(1);
+}
 const port = process.env.PORT || config.get("port");
 const server = app.listen(port, () =>
   winston.info(`Listening on port ${port}...`)

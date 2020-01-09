@@ -261,7 +261,7 @@ const data = [
     range: "ES",
     models: [
       {
-        model: "Es10-No1",
+        model: "ES10-No1",
         capacity: 1200,
         engType: "Warehouse",
         basePrice: 2700

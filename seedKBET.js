@@ -14,30 +14,29 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 155 },
-          { mastlength: 3500, price: 250 },
-          { mastlength: 4000, price: 500 }
+          { mastlength: 3000, closedheight: 2005, price: 0 },
+          { mastlength: 3300, closedheight: 2145, price: 155 },
+          { mastlength: 3500, closedheight: 2245, price: 250 },
+          { mastlength: 4000, closedheight: 2545, price: 500 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 550 },
-          { mastlength: 3500, price: 750 },
-          { mastlength: 4000, price: 900 }
+          { mastlength: 3000, closedheight: 2005, price: 550 },
+          { mastlength: 3500, closedheight: 2245, price: 750 },
+          { mastlength: 4000, closedheight: 2545, price: 900 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, price: 1400 },
-          { mastlength: 4500, price: 1510 },
-          { mastlength: 4700, price: 1660 },
-          { mastlength: 4800, price: 1490 },
-          { mastlength: 5000, price: 1800 },
-          { mastlength: 5500, price: 1910 },
-          { mastlength: 6000, price: 2300 }
+          { mastlength: 4350, closedheight: 2065, price: 1400 },
+          { mastlength: 4500, closedheight: 2115, price: 1510 },
+          { mastlength: 4700, closedheight: 2185, price: 1660 },
+          { mastlength: 5000, closedheight: 2315, price: 1800 },
+          { mastlength: 5500, closedheight: 2465, price: 1910 },
+          { mastlength: 6000, closedheight: 2665, price: 2300 }
         ]
       }
     ],
@@ -98,6 +97,11 @@ const data = [
         ]
       }
     ],
+
+    bfs: [{ bfstype: "", price: 228 }],
+    trolley: [{ trolleytype: "", price: 110 }],
+    blinkey: [{ blinkeytype: "", price: 35 }],
+
     cabin: [
       { cabinoption: "Half Cabin", price: 795 },
       { cabinoption: "Full Steel Cabin", price: 1410 }
@@ -113,30 +117,29 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 155 },
-          { mastlength: 3500, price: 250 },
-          { mastlength: 4000, price: 500 }
+          { mastlength: 3000, closedheight: 2005, price: 0 },
+          { mastlength: 3300, closedheight: 2145, price: 155 },
+          { mastlength: 3500, closedheight: 2245, price: 250 },
+          { mastlength: 4000, closedheight: 2545, price: 500 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 550 },
-          { mastlength: 3500, price: 750 },
-          { mastlength: 4000, price: 900 }
+          { mastlength: 3000, closedheight: 2005, price: 550 },
+          { mastlength: 3500, closedheight: 2245, price: 750 },
+          { mastlength: 4000, closedheight: 2545, price: 900 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, price: 1400 },
-          { mastlength: 4500, price: 1510 },
-          { mastlength: 4700, price: 1660 },
-          { mastlength: 4800, price: 1490 },
-          { mastlength: 5000, price: 1800 },
-          { mastlength: 5500, price: 1910 },
-          { mastlength: 6000, price: 2300 }
+          { mastlength: 4350, closedheight: 2065, price: 1400 },
+          { mastlength: 4500, closedheight: 2115, price: 1510 },
+          { mastlength: 4700, closedheight: 2185, price: 1660 },
+          { mastlength: 5000, closedheight: 2315, price: 1800 },
+          { mastlength: 5500, closedheight: 2465, price: 1910 },
+          { mastlength: 6000, closedheight: 2665, price: 2300 }
         ]
       }
     ],
@@ -196,6 +199,9 @@ const data = [
         ]
       }
     ],
+    bfs: [{ bfstype: "", price: 228 }],
+    trolley: [{ trolleytype: "", price: 110 }],
+    blinkey: [{ blinkeytype: "", price: 35 }],
     cabin: [
       { cabinoption: "Half Cabin", price: 795 },
       { cabinoption: "Full Steel Cabin", price: 1410 }
@@ -211,30 +217,29 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 185 },
-          { mastlength: 3500, price: 270 },
-          { mastlength: 4000, price: 540 }
+          { mastlength: 3000, closedheight: 2007, price: 0 },
+          { mastlength: 3300, closedheight: 2157, price: 185 },
+          { mastlength: 3500, closedheight: 2257, price: 270 },
+          { mastlength: 4000, closedheight: 2557, price: 540 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 680 },
-          { mastlength: 3500, price: 8850 },
-          { mastlength: 4000, price: 1040 }
+          { mastlength: 3000, closedheight: 2007, price: 680 },
+          { mastlength: 3500, closedheight: 2257, price: 8850 },
+          { mastlength: 4000, closedheight: 2557, price: 1040 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, price: 1580 },
-          { mastlength: 4500, price: 1690 },
-          { mastlength: 4700, price: 1840 },
-          { mastlength: 4800, price: 1960 },
-          { mastlength: 5000, price: 1800 },
-          { mastlength: 5500, price: 2080 },
-          { mastlength: 6000, price: 2360 }
+          { mastlength: 4350, closedheight: 2125, price: 1580 },
+          { mastlength: 4500, closedheight: 2175, price: 1690 },
+          { mastlength: 4700, closedheight: 2418, price: 1840 },
+          { mastlength: 5000, closedheight: 2418, price: 1960 },
+          { mastlength: 5500, closedheight: 2652, price: 2080 },
+          { mastlength: 6000, closedheight: 2885, price: 2360 }
         ]
       }
     ],
@@ -294,6 +299,9 @@ const data = [
         ]
       }
     ],
+    bfs: [{ bfstype: "", price: 228 }],
+    trolley: [{ trolleytype: "", price: 110 }],
+    blinkey: [{ blinkeytype: "", price: 35 }],
     cabin: [
       { cabinoption: "Half Cabin", price: 795 },
       { cabinoption: "Full Steel Cabin", price: 1410 }
@@ -303,10 +311,6 @@ const data = [
 
 async function seed() {
   await mongoose.connect(config.get("db"));
-
-  await Forkliftdetail.deleteMany({ model: "KBET15" }, function(err) {
-    if (err) console.log("Delete Many Failed");
-  });
 
   for (let forkliftItem of data) {
     const forky = new Forkliftdetail(forkliftItem);

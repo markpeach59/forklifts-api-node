@@ -53,19 +53,9 @@ const Forkliftdetail = mongoose.model(
         ]
       }
     ],
-    bfs: [
-      {
-        bfstype: String,
-        price: Number,
-        fillers: [
-          {
-            fillertype: String,
-            price: Number
-          }
-        ]
-      }
-    ],
-
+    bfs: [{ bfstype: String, price: Number }],
+    trolley: [{ trolleytype: String, price: Number }],
+    blinkey: [{ blinkeytype: String, price: Number }],
     sideextractionbattery: [
       { sideextractionbatterytype: String, price: Number }
     ]

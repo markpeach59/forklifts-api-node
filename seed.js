@@ -31,13 +31,13 @@ const data = [
     range: "KBE",
     models: [
       {
-        model: "KBE15",
+        model: "KBE15J",
         capacity: 1500,
         engType: "Electric",
         basePrice: 10290
       },
       {
-        model: "KBE18",
+        model: "KBE18J",
         capacity: 1750,
         engType: "Electric",
         basePrice: 10700

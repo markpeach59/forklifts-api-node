@@ -8,6 +8,7 @@ const Quote = mongoose.model(
       price: Number,
       masttype: String,
       mastsize: Number,
+      closedheight: Number,
       forks: Number,
 
       sideshift: String,
@@ -22,7 +23,7 @@ const Quote = mongoose.model(
       sideleverhydraulic: Boolean,
       battery: String,
       charger: String,
-
+      sideextractionbattery: Boolean,
       armguard: Boolean,
       platform: Boolean,
 
@@ -30,7 +31,9 @@ const Quote = mongoose.model(
       steering: Boolean,
 
       fork2d: String,
-      bfs: Boolean
+      bfs: Boolean,
+      manualtrolley: Boolean,
+      blinkey: Boolean
     },
     { timestamps: true }
   )

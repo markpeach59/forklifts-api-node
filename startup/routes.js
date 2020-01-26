@@ -3,6 +3,7 @@ const forklifts = require("../routes/forklifts");
 const forkliftdetails = require("../routes/forkliftdetails");
 const users = require("../routes/users");
 const quotes = require("../routes/quotes");
+const dealers = require("../routes/dealers");
 const auth = require("../routes/auth");
 
 //const error = require('../middleware/error');
@@ -13,6 +14,7 @@ module.exports = function(app) {
   app.use("/api/forkliftdetails", forkliftdetails);
   app.use("/api/users", users);
   app.use("/api/quotes", quotes);
+  app.use("/api/dealers", dealers);
   app.use("/api/auth", auth);
 
   //app.use(error);

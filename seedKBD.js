@@ -14,31 +14,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 225 },
-          { mastlength: 4000, price: 395 },
-          { mastlength: 4500, price: 640 },
-          { mastlength: 5000, price: 760 }
+          { mastlength: 3000, closedheight: 2002, price: 0 },
+          { mastlength: 3300, closedheight: 2152, price: 225 },
+          { mastlength: 4000, closedheight: 2552, price: 395 },
+          { mastlength: 4500, closedheight: 2802, price: 640 },
+          { mastlength: 5000, closedheight: 3052, price: 760 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 501 },
-
-          { mastlength: 4000, price: 895 }
+          { mastlength: 3000, closedheight: 2002, price: 501 },
+          { mastlength: 4000, closedheight: 2552, price: 895 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, price: 1200 },
-          { mastlength: 4500, price: 1350 },
-          { mastlength: 4700, price: 1410 },
-          { mastlength: 4800, price: 1490 },
-          { mastlength: 5000, price: 1620 },
-          { mastlength: 5500, price: 1710 },
-          { mastlength: 6000, price: 1988 }
+          { mastlength: 4350, closedheight: 2102, price: 1200 },
+          { mastlength: 4500, closedheight: 2152, price: 1350 },
+          { mastlength: 4700, closedheight: 2217, price: 1410 },
+          { mastlength: 4800, closedheight: 2252, price: 1490 },
+          { mastlength: 5000, closedheight: 2395, price: 1620 },
+          { mastlength: 5500, closedheight: 2629, price: 1710 },
+          { mastlength: 6000, closedheight: 2862, price: 1988 }
         ]
       }
     ],
@@ -77,31 +76,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 225 },
-          { mastlength: 4000, price: 395 },
-          { mastlength: 4500, price: 640 },
-          { mastlength: 5000, price: 760 }
+          { mastlength: 3000, closedheight: 2002, price: 0 },
+          { mastlength: 3300, closedheight: 2152, price: 225 },
+          { mastlength: 4000, closedheight: 2552, price: 395 },
+          { mastlength: 4500, closedheight: 2802, price: 640 },
+          { mastlength: 5000, closedheight: 3052, price: 760 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 501 },
-
-          { mastlength: 4000, price: 895 }
+          { mastlength: 3000, closedheight: 2002, price: 501 },
+          { mastlength: 4000, closedheight: 2552, price: 895 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, price: 1200 },
-          { mastlength: 4500, price: 1350 },
-          { mastlength: 4700, price: 1410 },
-          { mastlength: 4800, price: 1490 },
-          { mastlength: 5000, price: 1620 },
-          { mastlength: 5500, price: 1710 },
-          { mastlength: 6000, price: 1988 }
+          { mastlength: 4350, closedheight: 2102, price: 1200 },
+          { mastlength: 4500, closedheight: 2152, price: 1350 },
+          { mastlength: 4700, closedheight: 2217, price: 1410 },
+          { mastlength: 4800, closedheight: 2252, price: 1490 },
+          { mastlength: 5000, closedheight: 2395, price: 1620 },
+          { mastlength: 5500, closedheight: 2629, price: 1710 },
+          { mastlength: 6000, closedheight: 2862, price: 1988 }
         ]
       }
     ],
@@ -141,31 +139,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 225 },
-          { mastlength: 4000, price: 395 },
-          { mastlength: 4500, price: 640 },
-          { mastlength: 5000, price: 760 }
+          { mastlength: 3000, closedheight: 2002, price: 0 },
+          { mastlength: 3300, closedheight: 2152, price: 225 },
+          { mastlength: 4000, closedheight: 2552, price: 395 },
+          { mastlength: 4500, closedheight: 2802, price: 640 },
+          { mastlength: 5000, closedheight: 3052, price: 760 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 501 },
-
-          { mastlength: 4000, price: 895 }
+          { mastlength: 3000, closedheight: 2002, price: 501 },
+          { mastlength: 4000, closedheight: 2552, price: 895 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, price: 1200 },
-          { mastlength: 4500, price: 1350 },
-          { mastlength: 4700, price: 1410 },
-          { mastlength: 4800, price: 1490 },
-          { mastlength: 5000, price: 1620 },
-          { mastlength: 5500, price: 1710 },
-          { mastlength: 6000, price: 1988 }
+          { mastlength: 4350, closedheight: 2102, price: 1200 },
+          { mastlength: 4500, closedheight: 2152, price: 1350 },
+          { mastlength: 4700, closedheight: 2217, price: 1410 },
+          { mastlength: 4800, closedheight: 2252, price: 1490 },
+          { mastlength: 5000, closedheight: 2395, price: 1620 },
+          { mastlength: 5500, closedheight: 2629, price: 1710 },
+          { mastlength: 6000, closedheight: 2862, price: 1988 }
         ]
       }
     ],
@@ -206,31 +203,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 295 },
-          { mastlength: 4000, price: 410 },
-          { mastlength: 4500, price: 688 },
-          { mastlength: 5000, price: 988 }
+          { mastlength: 3000, closedheight: 2080, price: 0 },
+          { mastlength: 3300, closedheight: 2230, price: 295 },
+          { mastlength: 4000, closedheight: 2630, price: 410 },
+          { mastlength: 4500, closedheight: 2880, price: 688 },
+          { mastlength: 5000, closedheight: 3130, price: 988 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 609 },
-
-          { mastlength: 4000, price: 979 }
+          { mastlength: 3000, closedheight: 2080, price: 609 },
+          { mastlength: 4000, closedheight: 2630, price: 979 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, price: 1341 },
-          { mastlength: 4500, price: 1491 },
-          { mastlength: 4700, price: 1552 },
-          { mastlength: 4800, price: 1632 },
-          { mastlength: 5000, price: 1789 },
-          { mastlength: 5500, price: 1892 },
-          { mastlength: 6000, price: 2200 }
+          { mastlength: 4350, closedheight: 2130, price: 1341 },
+          { mastlength: 4500, closedheight: 2180, price: 1491 },
+          { mastlength: 4700, closedheight: 2245, price: 1552 },
+          { mastlength: 4800, closedheight: 2280, price: 1632 },
+          { mastlength: 5000, closedheight: 2428, price: 1789 },
+          { mastlength: 5500, closedheight: 2657, price: 1892 },
+          { mastlength: 6000, closedheight: 2890, price: 2200 }
         ]
       }
     ],
@@ -271,31 +267,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 305 },
-          { mastlength: 4000, price: 410 },
-          { mastlength: 4500, price: 688 },
-          { mastlength: 5000, price: 988 }
+          { mastlength: 3000, closedheight: 2080, price: 0 },
+          { mastlength: 3300, closedheight: 2230, price: 305 },
+          { mastlength: 4000, closedheight: 2630, price: 410 },
+          { mastlength: 4500, closedheight: 2880, price: 688 },
+          { mastlength: 5000, closedheight: 3130, price: 988 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 629 },
-
-          { mastlength: 4000, price: 999 }
+          { mastlength: 3000, closedheight: 2080, price: 629 },
+          { mastlength: 4000, closedheight: 2630, price: 999 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, price: 150 },
-          { mastlength: 4500, price: 1700 },
-          { mastlength: 4700, price: 1790 },
-          { mastlength: 4800, price: 1820 },
-          { mastlength: 5000, price: 2100 },
-          { mastlength: 5500, price: 2300 },
-          { mastlength: 6000, price: 2450 }
+          { mastlength: 4350, closedheight: 2130, price: 150 },
+          { mastlength: 4500, closedheight: 2180, price: 1700 },
+          { mastlength: 4700, closedheight: 2245, price: 1790 },
+          { mastlength: 4800, closedheight: 2280, price: 1820 },
+          { mastlength: 5000, closedheight: 2423, price: 2100 },
+          { mastlength: 5500, closedheight: 2657, price: 2300 },
+          { mastlength: 6000, closedheight: 2880, price: 2450 }
         ]
       }
     ],
@@ -338,31 +333,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 305 },
-          { mastlength: 4000, price: 410 },
-          { mastlength: 4500, price: 688 },
-          { mastlength: 5000, price: 988 }
+          { mastlength: 3000, closedheight: 2080, price: 0 },
+          { mastlength: 3300, closedheight: 2230, price: 305 },
+          { mastlength: 4000, closedheight: 2630, price: 410 },
+          { mastlength: 4500, closedheight: 2880, price: 688 },
+          { mastlength: 5000, closedheight: 3130, price: 988 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 629 },
-
-          { mastlength: 4000, price: 999 }
+          { mastlength: 3000, closedheight: 2080, price: 629 },
+          { mastlength: 4000, closedheight: 2630, price: 999 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, price: 150 },
-          { mastlength: 4500, price: 1700 },
-          { mastlength: 4700, price: 1790 },
-          { mastlength: 4800, price: 1820 },
-          { mastlength: 5000, price: 2100 },
-          { mastlength: 5500, price: 2300 },
-          { mastlength: 6000, price: 2450 }
+          { mastlength: 4350, closedheight: 2130, price: 150 },
+          { mastlength: 4500, closedheight: 2180, price: 1700 },
+          { mastlength: 4700, closedheight: 2245, price: 1790 },
+          { mastlength: 4800, closedheight: 2280, price: 1820 },
+          { mastlength: 5000, closedheight: 2423, price: 2100 },
+          { mastlength: 5500, closedheight: 2657, price: 2300 },
+          { mastlength: 6000, closedheight: 2880, price: 2450 }
         ]
       }
     ],
@@ -405,32 +399,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-
-          { mastlength: 4000, price: 810 },
-          { mastlength: 4500, price: 1011 },
-          { mastlength: 5000, price: 1620 }
+          { mastlength: 3000, closedheight: 2390, price: 0 },
+          { mastlength: 3300, closedheight: 2540, price: 390 },
+          { mastlength: 4000, closedheight: 2940, price: 810 },
+          { mastlength: 4500, closedheight: 3190, price: 1011 },
+          { mastlength: 5000, closedheight: 3440, price: 1620 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 1010 },
-
-          { mastlength: 4000, price: 1800 }
+          { mastlength: 3000, closedheight: 2390, price: 1010 },
+          { mastlength: 4000, closedheight: 2890, price: 1800 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4000, price: 1390 },
-          { mastlength: 4350, price: 1920 },
-          { mastlength: 4500, price: 2130 },
-          { mastlength: 4700, price: 2310 },
-
-          { mastlength: 5000, price: 2608 },
-          { mastlength: 5500, price: 2966 },
-          { mastlength: 6000, price: 3200 }
+          { mastlength: 4000, closedheight: 2245, price: 1390 },
+          { mastlength: 4350, closedheight: 2350, price: 1920 },
+          { mastlength: 4500, closedheight: 2441, price: 2130 },
+          { mastlength: 4700, closedheight: 2507, price: 2310 },
+          { mastlength: 5000, closedheight: 2540, price: 2608 },
+          { mastlength: 5500, closedheight: 2765, price: 2966 },
+          { mastlength: 6000, closedheight: 3005, price: 3200 }
         ]
       }
     ],
@@ -474,30 +466,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 390 },
-          { mastlength: 4000, price: 810 },
-          { mastlength: 4500, price: 1011 },
-          { mastlength: 5000, price: 1620 }
+          { mastlength: 3000, closedheight: 2390, price: 0 },
+          { mastlength: 3300, closedheight: 2540, price: 390 },
+          { mastlength: 4000, closedheight: 2940, price: 810 },
+          { mastlength: 4500, closedheight: 3190, price: 1011 },
+          { mastlength: 5000, closedheight: 3440, price: 1620 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 1010 },
-          { mastlength: 4000, price: 1800 }
+          { mastlength: 3000, closedheight: 2390, price: 1010 },
+          { mastlength: 4000, closedheight: 2890, price: 1800 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4000, price: 1390 },
-          { mastlength: 4350, price: 1920 },
-          { mastlength: 4500, price: 2130 },
-          { mastlength: 4700, price: 2310 },
-          { mastlength: 5000, price: 2608 },
-          { mastlength: 5500, price: 2966 },
-          { mastlength: 6000, price: 3200 }
+          { mastlength: 4000, closedheight: 2245, price: 1390 },
+          { mastlength: 4350, closedheight: 2350, price: 1920 },
+          { mastlength: 4500, closedheight: 2441, price: 2130 },
+          { mastlength: 4700, closedheight: 2507, price: 2310 },
+          { mastlength: 5000, closedheight: 2540, price: 2608 },
+          { mastlength: 5500, closedheight: 2765, price: 2966 },
+          { mastlength: 6000, closedheight: 3005, price: 3200 }
         ]
       }
     ],
@@ -541,30 +533,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 410 },
-          { mastlength: 4000, price: 890 },
-          { mastlength: 4500, price: 1100 },
-          { mastlength: 5000, price: 1800 },
-          { mastlength: 6000, price: 2073 }
+          { mastlength: 3000, closedheight: 2500, price: 0 },
+          { mastlength: 3300, closedheight: 2650, price: 410 },
+          { mastlength: 4000, closedheight: 3050, price: 890 },
+          { mastlength: 4500, closedheight: 3300, price: 1100 },
+          { mastlength: 5000, closedheight: 3550, price: 1800 },
+          { mastlength: 6000, closedheight: 4300, price: 2073 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 1200 },
-          { mastlength: 3500, price: 1566 },
-          { mastlength: 4000, price: 1976 }
+          { mastlength: 3000, closedheight: 2500, price: 1200 },
+          { mastlength: 3500, closedheight: 2710, price: 1566 },
+          { mastlength: 4000, closedheight: 3050, price: 1976 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4500, price: 2710 },
-          { mastlength: 4700, price: 2996 },
-          { mastlength: 5000, price: 3216 },
-          { mastlength: 5400, price: 3300 },
-          { mastlength: 6000, price: 3995 }
+          { mastlength: 4500, closedheight: 2655, price: 2710 },
+          { mastlength: 4700, closedheight: 2760, price: 2996 },
+          { mastlength: 5000, closedheight: 2825, price: 3216 },
+          { mastlength: 5400, closedheight: 2960, price: 3300 },
+          { mastlength: 6000, closedheight: 3160, price: 3995 }
         ]
       }
     ],
@@ -609,30 +601,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 410 },
-          { mastlength: 4000, price: 890 },
-          { mastlength: 4500, price: 1100 },
-          { mastlength: 5000, price: 1800 },
-          { mastlength: 6000, price: 2073 }
+          { mastlength: 3000, closedheight: 2500, price: 0 },
+          { mastlength: 3300, closedheight: 2650, price: 410 },
+          { mastlength: 4000, closedheight: 3050, price: 890 },
+          { mastlength: 4500, closedheight: 3300, price: 1100 },
+          { mastlength: 5000, closedheight: 3550, price: 1800 },
+          { mastlength: 6000, closedheight: 4300, price: 2073 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 1200 },
-          { mastlength: 3500, price: 1566 },
-          { mastlength: 4000, price: 1976 }
+          { mastlength: 3000, closedheight: 2500, price: 1200 },
+          { mastlength: 3500, closedheight: 2710, price: 1566 },
+          { mastlength: 4000, closedheight: 3050, price: 1976 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4500, price: 2710 },
-          { mastlength: 4700, price: 2996 },
-          { mastlength: 5000, price: 3216 },
-          { mastlength: 5400, price: 3300 },
-          { mastlength: 6000, price: 3995 }
+          { mastlength: 4500, closedheight: 2655, price: 2710 },
+          { mastlength: 4700, closedheight: 2760, price: 2996 },
+          { mastlength: 5000, closedheight: 2825, price: 3216 },
+          { mastlength: 5400, closedheight: 2960, price: 3300 },
+          { mastlength: 6000, closedheight: 3160, price: 3995 }
         ]
       }
     ],
@@ -677,30 +669,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, price: 0 },
-          { mastlength: 3300, price: 410 },
-          { mastlength: 4000, price: 890 },
-          { mastlength: 4500, price: 1100 },
-          { mastlength: 5000, price: 1800 },
-          { mastlength: 6000, price: 2073 }
+          { mastlength: 3000, closedheight: 2500, price: 0 },
+          { mastlength: 3300, closedheight: 2650, price: 410 },
+          { mastlength: 4000, closedheight: 3050, price: 890 },
+          { mastlength: 4500, closedheight: 3300, price: 1100 },
+          { mastlength: 5000, closedheight: 3550, price: 1800 },
+          { mastlength: 6000, closedheight: 4300, price: 2073 }
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, price: 1200 },
-          { mastlength: 3500, price: 1566 },
-          { mastlength: 4000, price: 1976 }
+          { mastlength: 3000, closedheight: 2500, price: 1200 },
+          { mastlength: 3500, closedheight: 2710, price: 1566 },
+          { mastlength: 4000, closedheight: 3050, price: 1976 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4500, price: 2710 },
-          { mastlength: 4700, price: 2996 },
-          { mastlength: 5000, price: 3216 },
-          { mastlength: 5400, price: 3300 },
-          { mastlength: 6000, price: 3995 }
+          { mastlength: 4500, closedheight: 2655, price: 2710 },
+          { mastlength: 4700, closedheight: 2760, price: 2996 },
+          { mastlength: 5000, closedheight: 2825, price: 3216 },
+          { mastlength: 5400, closedheight: 2960, price: 3300 },
+          { mastlength: 6000, closedheight: 3160, price: 3995 }
         ]
       }
     ],

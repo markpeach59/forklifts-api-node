@@ -11,10 +11,10 @@ router.get("/", async (req, res) => {
 });
 
 router.get("/:model", async (req, res) => {
-  console.log("GET", req.param("model"));
+  //console.log("GET", req.params.model);
 
   const forklift = await Forkliftdetail.findOne({
-    model: req.param("model")
+    model: req.params.model
   }).select("-__v");
 
   if (!forklift)

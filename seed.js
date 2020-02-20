@@ -5,7 +5,7 @@ const { Forklift } = require("./models/forklift");
 
 const data = [
   {
-    range: "KBET",
+    range: "KBET (3 Wheel) Electric",
     models: [
       {
         model: "KBET15",
@@ -28,7 +28,7 @@ const data = [
     ]
   },
   {
-    range: "KBE",
+    range: "KBE (4 Wheel) Electric",
     models: [
       {
         model: "KBE15J",
@@ -69,7 +69,7 @@ const data = [
     ]
   },
   {
-    range: "KBD",
+    range: "KBD Diesel",
     models: [
       {
         model: "KBD15",
@@ -126,7 +126,7 @@ const data = [
         basePrice: 23680
       },
       {
-        model: "KBD50 (BIG)",
+        model: "KBD50",
         capacity: 5000,
         engType: "Diesel",
         basePrice: 23680
@@ -152,7 +152,7 @@ const data = [
     ]
   },
   {
-    range: "KBG",
+    range: "KBG GAS",
     models: [
       {
         model: "KBG15",
@@ -205,7 +205,7 @@ const data = [
     ]
   },
   {
-    range: "EP",
+    range: "EP Warehouse",
     models: [
       {
         model: "EP12-WS",
@@ -258,7 +258,7 @@ const data = [
     ]
   },
   {
-    range: "ES",
+    range: "ES Warehouse",
     models: [
       {
         model: "ES10-No1",

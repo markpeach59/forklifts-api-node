@@ -152,7 +152,7 @@ const data = [
     ]
   },
   {
-    range: "KBG GAS",
+    range: "KBG Gas",
     models: [
       {
         model: "KBG15",

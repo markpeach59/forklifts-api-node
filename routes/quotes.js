@@ -26,6 +26,7 @@ router.post("/", async (req, res) => {
     _.pick(req.body, [
       "model",
       "price",
+      "imgname",
       "masttype",
       "mastsize",
       "forks",
@@ -45,7 +46,11 @@ router.post("/", async (req, res) => {
       "loadbackrest",
       "steering",
       "fork2d",
-      "bfs"
+      "bfs",
+      "manualtrolley",
+      "blinkey",
+      "sideextractionbattery",
+      "order"
     ])
   );
 
@@ -55,6 +60,7 @@ router.post("/", async (req, res) => {
     _.pick(quote, [
       "_id",
       "model",
+      "imgname",
       "price",
       "masttype",
       "mastsize",
@@ -75,7 +81,11 @@ router.post("/", async (req, res) => {
       "loadbackrest",
       "steering",
       "fork2d",
-      "bfs"
+      "bfs",
+      "manualtrolley",
+      "blinkey",
+      "sideextractionbattery",
+      "order"
     ])
   );
 });

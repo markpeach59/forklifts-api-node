@@ -5,6 +5,7 @@ const Quote = mongoose.model(
   new mongoose.Schema(
     {
       model: String,
+      imgname: String,
       price: Number,
       masttype: String,
       mastsize: Number,
@@ -33,7 +34,8 @@ const Quote = mongoose.model(
       fork2d: String,
       bfs: Boolean,
       manualtrolley: Boolean,
-      blinkey: Boolean
+      blinkey: Boolean,
+      order: { type: Boolean, default: false }
     },
     { timestamps: true }
   )

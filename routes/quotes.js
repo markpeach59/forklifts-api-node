@@ -17,7 +17,7 @@ router.get("/", async (req, res) => {
 */
 
 router.get("/", auth, async (req, res) => {
-  const quotes = await Quote.find({ userid: req.user._id })
+  const quotes = await Quote.find({ userid: req.user._id, order: false })
     .select("-__v")
     .sort("-updatedAt");
 
@@ -31,6 +31,21 @@ router.get("/:id", async (req, res) => {
     return res.status(404).send("The quote with the given ID was not found.");
 
   res.send(quote);
+});
+
+router.patch("/:id", async (req, res) => {
+  //const orderstatus = _.pick(req.body, ["order"]);
+
+  const quote = await Quote.findByIdAndUpdate(
+    req.params.id,
+    { $set: { order: true } },
+    { useFindAndModify: false, new: true }
+  ).select("-__v");
+
+  if (!quote)
+    return res.status(404).send("The quote with the given ID was not found.");
+
+  res.send(_.pick(quote, ["_id", "order"]));
 });
 
 router.post("/", async (req, res) => {

@@ -8,7 +8,21 @@ const dealerSchema = new mongoose.Schema({
     minlength: 3,
     maxlength: 255
   },
-  dealermarkup: Number
+  dealerregion: {
+    type: String,
+
+    trim: true,
+    minlength: 3,
+    maxlength: 255
+  },
+  dealerlogo: {
+    type: String,
+
+    trim: true,
+    minlength: 3,
+    maxlength: 255
+  },
+  dealermarkup: { type: Number, default: 1 }
 });
 
 const Dealer = mongoose.model("Dealers", dealerSchema);

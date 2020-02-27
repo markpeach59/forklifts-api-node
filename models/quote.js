@@ -4,6 +4,7 @@ const Quote = mongoose.model(
   "Quotes",
   new mongoose.Schema(
     {
+      userid: mongoose.Schema.Types.ObjectId,
       model: String,
       imgname: String,
       price: Number,

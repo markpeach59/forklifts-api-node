@@ -26,12 +26,18 @@ const userSchema = new mongoose.Schema({
     minlength: 5,
     maxlength: 1024
   },
+  dealerId: mongoose.Schema.Types.ObjectId,
   isAdmin: Boolean
 });
 
 userSchema.methods.generateAuthToken = function() {
   const token = jwt.sign(
-    { _id: this._id, fullname: this.name, isAdmin: this.isAdmin },
+    {
+      _id: this._id,
+      fullname: this.name,
+      dealerId: this.dealerId,
+      isAdmin: this.isAdmin
+    },
     config.get("jwtPrivateKey")
   );
   return token;

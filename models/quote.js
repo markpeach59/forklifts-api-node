@@ -11,9 +11,13 @@ const Quote = mongoose.model(
       masttype: String,
       mastsize: Number,
       closedheight: Number,
+
+      valve: String,
+
       forks: Number,
 
       sideshift: String,
+
       tyre: String,
       coldstoreprot: Boolean,
       seat: String,

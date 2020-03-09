@@ -95,12 +95,6 @@ const data = [
     basePrice: 13495
   },
   {
-    model: "KBD25",
-    capacity: 2500,
-    engType: "Diesel",
-    basePrice: 12236
-  },
-  {
     model: "KBD40",
     capacity: 4000,
     engType: "Diesel",

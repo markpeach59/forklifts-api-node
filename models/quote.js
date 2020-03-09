@@ -6,6 +6,10 @@ const Quote = mongoose.model(
     {
       userid: mongoose.Schema.Types.ObjectId,
       model: String,
+
+      capacity: Number,
+      engtype: String,
+      baseprice: Number,
       imgname: String,
       price: Number,
       masttype: String,

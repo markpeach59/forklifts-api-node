@@ -53,6 +53,10 @@ router.post("/", async (req, res) => {
     _.pick(req.body, [
       "userid",
       "model",
+
+      "capacity",
+      "engtype",
+      "baseprice",
       "price",
       "imgname",
       "masttype",
@@ -90,6 +94,9 @@ router.post("/", async (req, res) => {
       "_id",
       "userid",
       "model",
+      "capacity",
+      "engtype",
+      "baseprice",
       "imgname",
       "price",
       "masttype",

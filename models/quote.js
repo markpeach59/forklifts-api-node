@@ -6,6 +6,7 @@ const Quote = mongoose.model(
     {
       userid: mongoose.Schema.Types.ObjectId,
       model: String,
+      powertrain: String,
 
       capacity: Number,
       engtype: String,
@@ -21,6 +22,7 @@ const Quote = mongoose.model(
       forks: Number,
 
       sideshift: String,
+      forkpositioner: String,
 
       tyre: String,
       coldstoreprot: Boolean,

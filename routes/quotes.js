@@ -53,7 +53,7 @@ router.post("/", async (req, res) => {
     _.pick(req.body, [
       "userid",
       "model",
-
+      "powertrain",
       "capacity",
       "engtype",
       "baseprice",
@@ -64,6 +64,7 @@ router.post("/", async (req, res) => {
       "valve",
       "forks",
       "sideshift",
+      "forkpositioner",
       "tyre",
       "coldstoreprot",
       "seat",
@@ -94,6 +95,7 @@ router.post("/", async (req, res) => {
       "_id",
       "userid",
       "model",
+      "powertrain",
       "capacity",
       "engtype",
       "baseprice",
@@ -104,6 +106,7 @@ router.post("/", async (req, res) => {
       "valve",
       "forks",
       "sideshift",
+      "forkpositioner",
       "tyre",
       "coldstoreprot",
       "seat",

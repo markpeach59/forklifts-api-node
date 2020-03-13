@@ -4,6 +4,7 @@ const Forkliftdetail = mongoose.model(
   "Forkliftdetails",
   new mongoose.Schema({
     model: String,
+    powertrain: String,
     capacity: Number,
     engType: String,
     basePrice: Number,

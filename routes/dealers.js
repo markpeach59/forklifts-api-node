@@ -23,25 +23,12 @@ router.get("/:id", async (req, res) => {
 
 router.post("/", async (req, res) => {
   dealer = new Dealer(
-    _.pick(req.body, [
-      "dealername",
-      "dealerregion",
-      "dealerlogo",
-      "dealermarkup"
-    ])
+    _.pick(req.body, ["dealername", "dealerregion", "dealerlogo"])
   );
 
   dealer = await dealer.save();
 
-  res.send(
-    _.pick(dealer, [
-      "_id",
-      "dealername",
-      "dealerregion",
-      "dealerlogo",
-      "dealermarkup"
-    ])
-  );
+  res.send(_.pick(dealer, ["_id", "dealername", "dealerregion", "dealerlogo"]));
 });
 
 module.exports = router;

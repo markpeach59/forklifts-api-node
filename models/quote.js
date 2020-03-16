@@ -22,7 +22,7 @@ const Quote = mongoose.model(
       forks: Number,
 
       sideshift: String,
-      forkpositioner: String,
+      forkpositioner: Boolean,
 
       tyre: String,
       coldstoreprot: Boolean,

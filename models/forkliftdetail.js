@@ -59,7 +59,8 @@ const Forkliftdetail = mongoose.model(
     blinkey: [{ blinkeytype: String, price: Number }],
     sideextractionbattery: [
       { sideextractionbatterytype: String, price: Number }
-    ]
+    ],
+    specsheet: String
   })
 );
 

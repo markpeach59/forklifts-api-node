@@ -46,7 +46,8 @@ const Quote = mongoose.model(
       bfs: Boolean,
       manualtrolley: Boolean,
       blinkey: Boolean,
-      order: { type: Boolean, default: false }
+      order: { type: Boolean, default: false },
+      specsheet: String
     },
     { timestamps: true }
   )

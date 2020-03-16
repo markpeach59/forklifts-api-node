@@ -84,7 +84,8 @@ router.post("/", async (req, res) => {
       "manualtrolley",
       "blinkey",
       "sideextractionbattery",
-      "order"
+      "order",
+      "specsheet"
     ])
   );
 
@@ -126,7 +127,8 @@ router.post("/", async (req, res) => {
       "manualtrolley",
       "blinkey",
       "sideextractionbattery",
-      "order"
+      "order",
+      "specsheet"
     ])
   );
 });

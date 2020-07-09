@@ -11,6 +11,8 @@ const Forkliftdetail = mongoose.model(
 
     imgName: String,
 
+    engines: [{ enginetype: String, price: Number }],
+
     masts: [
       {
         masttype: String,
@@ -18,10 +20,10 @@ const Forkliftdetail = mongoose.model(
           {
             mastlength: Number,
             closedheight: Number,
-            price: Number
-          }
-        ]
-      }
+            price: Number,
+          },
+        ],
+      },
     ],
     forks: [{ forklength: Number, price: Number }],
     forks2d: [{ forklength: String, price: Number }],
@@ -49,18 +51,18 @@ const Forkliftdetail = mongoose.model(
         chargers: [
           {
             chargertype: String,
-            price: Number
-          }
-        ]
-      }
+            price: Number,
+          },
+        ],
+      },
     ],
     bfs: [{ bfstype: String, price: Number }],
     trolley: [{ trolleytype: String, price: Number }],
     blinkey: [{ blinkeytype: String, price: Number }],
     sideextractionbattery: [
-      { sideextractionbatterytype: String, price: Number }
+      { sideextractionbatterytype: String, price: Number },
     ],
-    specsheet: String
+    specsheet: String,
   })
 );
 

@@ -57,6 +57,7 @@ router.post("/", async (req, res) => {
       "capacity",
       "engtype",
       "baseprice",
+      "markup",
       "price",
       "imgname",
       "masttype",
@@ -85,7 +86,7 @@ router.post("/", async (req, res) => {
       "blinkey",
       "sideextractionbattery",
       "order",
-      "specsheet"
+      "specsheet",
     ])
   );
 
@@ -101,6 +102,7 @@ router.post("/", async (req, res) => {
       "engtype",
       "baseprice",
       "imgname",
+      "markup",
       "price",
       "masttype",
       "mastsize",
@@ -128,7 +130,7 @@ router.post("/", async (req, res) => {
       "blinkey",
       "sideextractionbattery",
       "order",
-      "specsheet"
+      "specsheet",
     ])
   );
 });

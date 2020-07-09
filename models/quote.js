@@ -12,6 +12,7 @@ const Quote = mongoose.model(
       engtype: String,
       baseprice: Number,
       imgname: String,
+      markup: Number,
       price: Number,
       masttype: String,
       mastsize: Number,
@@ -47,7 +48,7 @@ const Quote = mongoose.model(
       manualtrolley: Boolean,
       blinkey: Boolean,
       order: { type: Boolean, default: false },
-      specsheet: String
+      specsheet: String,
     },
     { timestamps: true }
   )

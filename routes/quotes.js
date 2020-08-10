@@ -24,6 +24,14 @@ router.get("/", auth, async (req, res) => {
   res.send(quotes);
 });
 
+router.get("/all", async (req, res) => {
+  const quotes = await Quote.find({ order: false })
+    .select("-__v")
+    .sort("-updatedAt");
+
+  res.send(quotes);
+});
+
 router.get("/:id", async (req, res) => {
   const quote = await Quote.findById(req.params.id).select("-__v");
 

@@ -41,6 +41,21 @@ router.get("/:id", async (req, res) => {
   res.send(quote);
 });
 
+router.patch("/reassign/:id", async (req, res) => {
+  const newowner = _.pick(req.body, ["userid"]);
+
+  const quote = await Quote.findByIdAndUpdate(
+    req.params.id,
+    { $set: { userid: req.body.userid } },
+    { useFindAndModify: false, new: true }
+  ).select("-__v");
+
+  if (!quote)
+    return res.status(404).send("The quote with the given ID was not found.");
+
+  res.send(_.pick(quote, ["_id", "userid"]));
+});
+
 router.patch("/:id", async (req, res) => {
   //const orderstatus = _.pick(req.body, ["order"]);
 
